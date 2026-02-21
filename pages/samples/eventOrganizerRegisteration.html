@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Organizer Registration</title>
+
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+<div class="container-scroller">
+  <div class="container-fluid page-body-wrapper full-page-wrapper">
+    <div class="content-wrapper d-flex align-items-center auth">
+      <div class="row flex-grow">
+        <div class="col-lg-5 mx-auto">
+          <div class="auth-form-light text-left p-5">
+
+            <h4>Event Organizer Registration</h4>
+            <h6 class="font-weight-light">Create organizer account</h6>
+
+            <form method="POST" action="organizer_register_process.php">
+
+              <div class="form-group">
+                <input type="text" name="full_name" class="form-control" placeholder="Full Name" required>
+              </div>
+
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Official Email" required>
+              </div>
+
+              <div class="form-group">
+                <input type="text" name="phone" class="form-control" placeholder="Mobile Number" required>
+              </div>
+
+              <div class="form-group">
+                <input type="text" name="organization" class="form-control" placeholder="Club / Organization Name" required>
+              </div>
+
+              <div class="form-group">
+                <input type="text" name="designation" class="form-control" placeholder="Designation (Coordinator / Head)" required>
+              </div>
+
+              <div class="form-group">
+                <input type="password" name="password" class="form-control" placeholder="Password" required>
+              </div>
+
+              <div class="mt-3">
+                <button type="submit" class="btn btn-success btn-block">
+                  Register as Organizer
+                </button>
+              </div>
+
+           <div class="text-center mt-4">
+           Already registered? <a href="login.html">Login</a>
+              </div>
+
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
